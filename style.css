@@ -1,5 +1,6 @@
 .header {
-    background-color: #1f2937;   
+    background-color: #1f2937;
+    
 }
 
 h1 {
@@ -8,10 +9,20 @@ h1 {
     color: #f9faf8;
 }
 
-.header p, .placeholder {
+.header p, .placeholder, a {
     font-size: 18px;
     color: #e5e7eb;
 }
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+} 
 
 .logo {
     font-size: 24px;
