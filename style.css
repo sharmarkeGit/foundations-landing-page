@@ -1,7 +1,23 @@
-.header {
-    background-color: #1f2937;
+body {
+    display: flex;
+    flex-direction: column;
     
 }
+
+.section-1 {
+    background-color: #1f2937;
+    padding: 16px 58px 100px 200px;
+    margin: -10px;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+
 
 h1 {
     font-size: 48px;
@@ -9,7 +25,7 @@ h1 {
     color: #f9faf8;
 }
 
-.header p, .placeholder, a {
+.title p, .placeholder, a {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -27,4 +43,42 @@ ul{
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul {
+    display: flex;  
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title div:first-child {
+    width: 300px;
+}
+
+.placeholder {
+    width: 500px;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 8px 12px;
+    font-size: 18px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+    width: 150px;
+    flex-shrink: 0;
+
 }
