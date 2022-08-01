@@ -119,3 +119,37 @@ h2 {
     font-weight: bolder;
     color: #1f2937;
 }
+
+
+/* Section 3*/
+
+.section-3 {
+    background-color: #E5E7EB;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    gap: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote {
+    
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+    margin-bottom: 0;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-top: 0%;
+
+}
