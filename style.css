@@ -25,7 +25,7 @@ h1 {
     color: #f9faf8;
 }
 
-.title p, .placeholder, a {
+.title p, .placeholder, a{
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -81,4 +81,41 @@ button {
     width: 150px;
     flex-shrink: 0;
 
+}
+
+/* Section 2 */
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.illustration {
+    border: 3px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    gap: 16px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    color: grey;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #1f2937;
 }
